@@ -1,0 +1,15 @@
+doctype html
+html(ng-app="myApp")
+head
+  title Angular 2 Skeleton
+  script(src="assets/libs/angular.js")
+  script(src="assets/libs/angular-route.js")
+  script(src="assets/js/app.module.js")
+  script(src="assets/js/app.routes.js")
+  script(src="assets/js/app.controllers.js")
+  
+body
+  h2 Hello World!
+  h3 1 + 2 = {{ 1 + 2 }}
+  .content(ng-view)
+  
